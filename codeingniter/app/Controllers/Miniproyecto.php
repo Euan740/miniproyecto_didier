@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\DatosModel:
+use App\Models\DatosModel;
 
 class Miniproyecto extends BaseController
 {
