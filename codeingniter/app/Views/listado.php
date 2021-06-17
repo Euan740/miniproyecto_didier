@@ -37,6 +37,7 @@
                  <th>Apellido materno</th>
                  <th>Editar</th>
                  <th>Eliminar</th>
+
                </tr>
 
                <?php foreach($datos as $dato): ?>
