@@ -59,9 +59,9 @@ class Miniproyecto extends BaseController{
          $respuesta = $gModel->actualizar($data,$id);
 
          if ($respuesta){
-             return redirect()->to(base_url('/index.php))->with('mensaje','2');
+             return redirect()->to(base_url('/index.php'))->with('mensaje','2');
          }else{
-             return redirect()->to(base_url('/index.php))->with('mensaje','3');
+             return redirect()->to(base_url('/index.php'))->with('mensaje','3');
          } 
      }
      public function eliminar($idPersona){
@@ -70,9 +70,9 @@ class Miniproyecto extends BaseController{
          $respuesta = $gModel->eliminar($id);
 
          if($respuesta){
-             return redirect()->to(base_url('/index.php))->with('mensaje','4');
+             return redirect()->to(base_url('/index.php'))->with('mensaje','4');
          }else{
-             return redirect()->to(base_url('/index.php))->with('mensaje','5');
+             return redirect()->to(base_url('/index.php'))->with('mensaje','5');
          }
       }
   } 
