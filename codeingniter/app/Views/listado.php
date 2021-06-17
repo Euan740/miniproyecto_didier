@@ -78,6 +78,7 @@
         swal(':(','No fue posible eliminar registro correctamente','error');
       }
 
+
     </script>
   </body>
 </html>
