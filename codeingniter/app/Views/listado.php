@@ -24,7 +24,6 @@
                 <label for="nombre">Apellido Materno:</label>
                 <input type"text" id="amaterno" name="amaterno" class="form-control" required>
                 <button class="btn btn-primary form-control">Guardar</button>
-
             </form>
           </div>
         </div>
