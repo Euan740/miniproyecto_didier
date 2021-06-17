@@ -20,6 +20,7 @@ class DatosModel extends Model{
         $gModel->insert($data);
         return $this->db->insertID();
 
+
     }
 
     public function actualizar($data,$id){
