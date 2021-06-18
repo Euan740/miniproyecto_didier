@@ -25,7 +25,7 @@
          <form method="POST" action="<?php echo base_url('/index.php/actualizar') ?>">
            <input type="hidden" name="id" id="id" value="<?php echo $id ?>"> 
            <label for="nombre">Nombre:</label>
-           <input type="text" class="form control" name="nombre" id="nombre" value="<?php echo $nombre?>" required>
+           <input type="text" class="form-control" name="nombre" id="nombre" value="<?php echo $nombre?>" required>
            <label for="apaterno">Apellido paterno:</label>
            <input type="text" name="apaterno" id="apaterno" class="form-control" value="<?php echo $apaterno?>" required>
            <label for="amaterno">Apellido materno:</label>
@@ -35,7 +35,7 @@
        </div>
      </div>
    </div>
-    <h1>Hello, world!</h1>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
