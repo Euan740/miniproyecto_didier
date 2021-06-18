@@ -1,8 +1,8 @@
 <?php
   $id = $datos[0]['id'];
   $nombre = $datos[0]['nombre'];
-  $apaterno = $datos[0]['a_paterno'];
-  $amaterno = $datos[0]['a_materno'];
+  $apaterno = $datos[0]['apellido_paterno'];
+  $amaterno = $datos[0]['apellido_materno'];
 
 ?>
 <!doctype html>
