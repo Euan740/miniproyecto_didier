@@ -32,8 +32,8 @@ class Miniproyecto extends BaseController{
             $gModel = new DatosModel();
             $data = [
                 "nombre" => $_POST['nombre'], 
-                "apellido_paterno" => $_POST['apellidopaterno'],
-                "apellido_materno" => $_POST['apellidomaterno'], 
+                "apellido_paterno" => $_POST['apaterno'],
+                "apellido_materno" => $_POST['amaterno'], 
             ];
             $respuesta = $gModel->insertar($data);
 
@@ -50,8 +50,8 @@ class Miniproyecto extends BaseController{
          $gModel = new DatosModel();
          $data = [
              "nombre" => $_POST['nombre'], 
-             "apellido_paterno" => $_POST['apellidopaterno'], 
-             "apellido_materno" => $_POST['apellidomaterno'],
+             "apellido_paterno" => $_POST['apaterno'], 
+             "apellido_materno" => $_POST['amaterno'],
 
          ];
 
